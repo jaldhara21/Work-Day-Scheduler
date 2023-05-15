@@ -16,10 +16,18 @@ body {
     max-width: 1000px;
     margin-bottom: 20px;
   }
+
+  .jumbotron {
+    text-align: center;
+    color: black;
+    border-bottom: 5px solid black;
+    padding-bottom: 15px;
+  }
+
   .description {
     white-space: pre-wrap;
   }
-  
+  /*time-block*/
   .time-block {
     border-radius: 15px;
   }
@@ -64,4 +72,14 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
+  /* clear button style */
+  .clearbtn {
+    margin-top: 15px;
+    padding: 10px;
+    align-items: left;
+    background-color: rgb(94, 91, 91);
+  }
+
+  .clearbtn i:hover {
+    font-size: medium;
+  }
