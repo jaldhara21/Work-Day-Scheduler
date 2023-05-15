@@ -1,6 +1,6 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
   }
   
   textarea {
@@ -9,7 +9,7 @@ body {
     resize: none;
     color: #000000;
     border-left: 1px solid black;
-    padding: 10px;
+    padding:10px
   }
   /* container style apply*/
   .container {
@@ -18,10 +18,12 @@ body {
   }
 
   .jumbotron {
+    
     text-align: center;
-    color: black;
+    color: rgb(112, 121, 218);
     border-bottom: 5px solid black;
     padding-bottom: 15px;
+    background-color: #ace894;
   }
 
   .description {
@@ -74,10 +76,11 @@ body {
   }
   /* clear button style */
   .clearbtn {
-    margin-top: 15px;
+    margin-top: 19px;
     padding: 10px;
     align-items: left;
-    background-color: rgb(94, 91, 91);
+    text-align: center;
+    background-color: rgb(129, 135, 133);
   }
 
   .clearbtn i:hover {
