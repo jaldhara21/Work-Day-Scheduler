@@ -1,9 +1,9 @@
-// creat a new function
+// create a new function
 $(document).ready(function () {
   console.log("Ready!");
 });
 
-//Creat a variable and  code retrieves the current date and time using Moment.js, uase innerHTML
+//Create a variable and  code retrieves the current date and time using Moment.js, uase innerHTML
 let now = moment().format("dddd, MMMM Do YYYY");
 let displayDate = document.getElementById("currentDay");
 displayDate.innerHTML = now;
@@ -25,7 +25,7 @@ $(".time-div").each(function () {
   }
 });
 
-// Creat a new function and Save data to local storage
+// Create a new function and Save data to local storage
 $(".saveBtn").click(function (event) {
   event.preventDefault();
   var value = $(this).siblings(".time-block").val();
@@ -33,7 +33,7 @@ $(".saveBtn").click(function (event) {
   localStorage.setItem(time, value);
 });
 
-//Retrieve data from local storage
+//Retrieve data from local storage 
 $("#hour-09 .time-block").val(localStorage.getItem("09"));
 $("#hour-10 .time-block").val(localStorage.getItem("10"));
 $("#hour-11 .time-block").val(localStorage.getItem("11"));
@@ -44,9 +44,11 @@ $("#hour-15 .time-block").val(localStorage.getItem("15"));
 $("#hour-16 .time-block").val(localStorage.getItem("16"));
 $("#hour-17 .time-block").val(localStorage.getItem("17"));
 
-//Create a fuction: Clear button function for clearing content and local storage
-$("#clearFieldsBtn").click(function (event) {
-  event.preventDefault;
-  $("textArea").val("");
-  localStorage.clear();
+ 
+// create function Clear button function for clearing content and local storage
+ $("#clearFieldsBtn").click(function(event) {
+    event.preventDefault;
+    $("textArea").val("");
+    localStorage.clear();
 });
+
