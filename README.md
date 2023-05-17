@@ -29,8 +29,8 @@ This project aims to create a simple calendar application that allows a user to 
   </ol>
   
 ## Deployed Page
+https://jaldhara21.github.io/Work-Day-Scheduler/
 
-  
 ## Screen Shot 
 ![Screen Shot 2023-05-17 at 10 06 33 AM](https://github.com/jaldhara21/Work-Day-Scheduler/assets/129098874/1071ae5d-2433-4b5b-bd27-d8b16d761570)
  
