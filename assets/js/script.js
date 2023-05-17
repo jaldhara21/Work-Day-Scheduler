@@ -3,11 +3,11 @@ $(document).ready(function () {
   console.log("Ready!");
 });
 
-//Create a variable and  code retrieves the current date and time using Moment.js, uase innerHTML
-let now = moment().format("dddd, MMMM Do YYYY");
+//Create a variable and  code retrieves the current date and time using day.js, uase innerHTML
+let now = dayjs().format("dddd, MMMM Do YYYY");
 let displayDate = document.getElementById("currentDay");
 displayDate.innerHTML = now;
-let currentHour = moment().format("HH");
+let currentHour = dayjs().format("HH");
 
 //  past, present, or future function
 $(".time-div").each(function () {
